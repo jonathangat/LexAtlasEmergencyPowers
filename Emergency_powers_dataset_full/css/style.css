@@ -1,0 +1,63 @@
+body {
+  background-color: #222;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  width: 400px;
+  background-color: #333;
+  color: #fff;
+}
+
+th,
+td {
+  border: 1px solid #444;
+  padding: 8px;
+  width: 100px;
+  word-wrap: break-word;
+  vertical-align: top;
+}
+
+th {
+  background-color: #555;
+}
+
+tr:nth-child(even) {
+  background-color: #444;
+}
+
+tr:hover {
+  background-color: #666;
+}
+
+.varrow {
+  color: #a0bcb4;
+}
+
+img {
+  float: right;
+}
+
+.container {
+  position: relative;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999; /* Ensure the header stays on top */
+}
+
+.logo {
+  margin: 10px; /* Adjust the margin as needed */
+}
+
+.table-container {
+  padding-top: 60px; /* Adjust the padding top value to create space for the fixed header */
+  overflow-x: scroll;
+  margin-top: 60px; /* Adjust the margin top value to maintain distance between the header and table */
+}
