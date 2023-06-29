@@ -27,6 +27,10 @@ window.addEventListener('DOMContentLoaded', function () {
       }
     }
   }
-  xhttp.open('GET', '../data/Emergency_Powers_dataset.html', true)
+  xhttp.open(
+    'GET',
+    '../Emergency_powers_dataset_full/data/Emergency_Powers_dataset.html',
+    true
+  )
   xhttp.send()
 })
